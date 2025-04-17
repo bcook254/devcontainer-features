@@ -1,0 +1,14 @@
+{
+    "id": "install-packages",
+    "version": "1.0.0",
+    "name": "Install Packages",
+    "documentationURL": "https://github.com/bcook254/devcontainer-features/tree/main/src/install-packages",
+    "description": "Install packages using the native system installer.",
+    "options": {
+        "packages": {
+            "default": "",
+            "description": "A space-delimited list of packages to install.",
+            "type": "string"
+        }
+    }
+}
